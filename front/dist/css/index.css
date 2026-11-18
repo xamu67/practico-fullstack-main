@@ -1,0 +1,62 @@
+.body{
+    background-color: #F7F5EE;
+}
+
+.navbar{
+    border-bottom: 1px solid #e6e6e6;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.navbar-inner{
+    align-items: center;
+    display: flex;
+    gap: 150px;
+
+}
+
+.navbar-title{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-opciones{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-sesion{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.a-crearcuenta{
+    background-color: #193C32;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #F7F5EE;
+    text-decoration: none;
+}
+
+.a-opciones{
+    text-decoration: none;
+    color: #193C32;
+}
+
+.a-sesion{
+    color: #193C32;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    color: #193C32;
+}
