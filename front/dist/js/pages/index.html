@@ -15,7 +15,7 @@
                 <a href="/front/dist/js/pages/index.html" class="logo"> Folio.</a>
             </nav>
             <nav class="navbar-opciones">
-                <a href="#Catalogo" class="a-opciones">Explorar catálogo</a>
+                <a href="#catalogo" class="a-opciones">Explorar catálogo</a>
                 <a href="#colecciones" class="a-opciones">Colecciones</a>
                 <a href="#como-funciona" class="a-opciones">Como funciona</a>
             </nav>
@@ -42,6 +42,78 @@ tu biblioteca contigo. Lee a tu ritmo, estés donde estés. </a>
         </div>
         <div class="derecha">
             <img src="../../../images/sala-lectura.png" class="sala-lectura">
+        </div>
+    </div>
+
+    <div class="seleccionbiblioteca" id="catalogo">
+        <div class="seleccion-encabezado">
+            <h2 class="seleccion-titulo">Encuentra tu próxima lectura</h2>
+            <a href="#catalogo" class="a-vercatalogo">Ver todo el catálogo ↗</a>
+        </div>
+
+        <div class="buscador">
+            <span class="buscador-icono">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+                </svg>
+            </span>
+            <input type="search" class="buscador-input" placeholder="Busca por título, autor o tema" aria-label="Buscar por título, autor o tema">
+        </div>
+
+        <div class="filtros">
+            <a href="#" class="filtro filtro-activo">Para ti</a>
+            <a href="#" class="filtro">Novela</a>
+            <a href="#" class="filtro">Poesía</a>
+            <a href="#" class="filtro">Ensayo</a>
+            <a href="#" class="filtro">Ciencia</a>
+            <a href="#" class="filtro">Historia</a>
+        </div>
+
+        <div class="libros">
+            <div class="libro">
+                <img src="../../../images/cover-orgullo.png" alt="Portada de Orgullo y prejuicio" class="libro-portada">
+                <p class="libro-categoria">Novela · Romance</p>
+                <h3 class="libro-titulo">Orgullo y prejuicio</h3>
+                <p class="libro-autor">Jane Austen</p>
+                <div class="libro-pie">
+                    <span class="libro-formato">Libro digital</span>
+                    <a href="index.html" class="a-leer">Leer ↗</a>
+                </div>
+            </div>
+
+            <div class="libro">
+                <img src="../../../images/cover-metamorfosis.png" alt="Portada de La metamorfosis" class="libro-portada">
+                <p class="libro-categoria">Novela · Ficción</p>
+                <h3 class="libro-titulo">La metamorfosis</h3>
+                <p class="libro-autor">Franz Kafka</p>
+                <div class="libro-pie">
+                    <span class="libro-formato">Libro digital</span>
+                    <a href="index.html" class="a-leer">Leer ↗</a>
+                </div>
+            </div>
+
+            <div class="libro">
+                <img src="../../../images/cover-habitacion.png" alt="Portada de Una habitación propia" class="libro-portada">
+                <p class="libro-categoria">Ensayo · Literatura</p>
+                <h3 class="libro-titulo">Una habitación propia</h3>
+                <p class="libro-autor">Virginia Woolf</p>
+                <div class="libro-pie">
+                    <span class="libro-formato">Libro digital</span>
+                    <a href="index.html" class="a-leer">Leer ↗</a>
+                </div>
+            </div>
+
+            <div class="libro">
+                <img src="../../../images/cover-jardin.png" alt="Portada de El jardín secreto" class="libro-portada">
+                <p class="libro-categoria">Novela · Aventura</p>
+                <h3 class="libro-titulo">El jardín secreto</h3>
+                <p class="libro-autor">Frances H. Burnett</p>
+                <div class="libro-pie">
+                    <span class="libro-formato">Libro digital</span>
+                    <a href="index.html" class="a-leer">Leer ↗</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
