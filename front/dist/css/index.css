@@ -88,7 +88,7 @@ html {
 .subtitulo1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#193C32;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .portada-botones{
@@ -115,7 +115,7 @@ html {
 .seleccionbiblioteca{
     padding: 40px 48px 60px;
     background-color: #FFFEFA;
-    color: #193C32;s
+    color: #193C32;
 }
 
 
@@ -272,9 +272,9 @@ html {
 }
 .coleccion-titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
     font-size: 34px;
     margin: 0;
+    color: #193C32;
 }
 
 .coleccion-boton{
@@ -330,4 +330,62 @@ html {
 .minititulo1{
     color: #193C32;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comofunciona{
+    background-color: #FFFEFA;
+    display: flex;
+    flex-direction: row;
+    padding: 15vh 15vh 15vh 5vh;
+    
+}
+.subbloque1{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    height: 120px;
+    border-bottom: 1px solid #e6e6e6;
+    width: 1800px;
+    max-width: 100%;
+}
+
+.subtitulo2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#2d574b;
+    font-size: 20px;
+}
+
+.titulo4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    color: #193C32;
+    justify-content: center;
+    margin: 0;
+}
+
+.bloque2{
+    display: grid;
+}
+
+.titulos-subbloque2{
+    padding: 6vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #193C32;
+    margin: 0;
+}
+.subtitulos-subbloque2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 6vh;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #193C32;
+    margin: 0;
+}
+
+.subtitulo3{
+    margin: 0;
 }
