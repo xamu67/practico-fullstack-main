@@ -14,6 +14,7 @@
     align-items: center;
     display: flex;
     gap: 150px;
+    width: 100%;
 
 }
 
@@ -21,6 +22,7 @@
     align-items: center;
     display: flex;
     gap: 10px;
+    margin-right: auto;
 }
 
 .navbar-opciones{
@@ -59,4 +61,48 @@
     font-size: 35px;
     text-decoration: none;
     color: #193C32;
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    align-items: center;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    gap: 10vh;
+}
+
+.izquierda{
+
+}
+
+.titulo1{
+    color:#193C32;
+    font-size: 50px;
+}
+.subtitulo1{
+    color:#193C32;
+    font-size: 25px;
+}
+
+.portada-botones{
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.a-portada-explorar{
+    background-color: #193C32;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #F7F5EE;
+    text-decoration: none;
+}
+.a-portada-funciona{
+    text-decoration: none;
+    color: #193C32;
+
 }
